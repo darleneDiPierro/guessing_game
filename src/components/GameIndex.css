@@ -1,0 +1,17 @@
+.GameIndex {
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.GameIndex .content {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+};
