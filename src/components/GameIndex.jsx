@@ -34,6 +34,7 @@ const GameIndex = () => {
         <button onClick={toggleGuessButton}>Guess</button>
         </div>
       )}
+      <button onClick={toggleStart}>START</button>
       <p>{hint}</p>
       {isLimit && (
         <div>
